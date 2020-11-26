@@ -1,9 +1,10 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export const NavBar: React.FC = () => (
   <nav>
     <div className="nav-wrapper purple darken-2 px1">
-      <a href="/" className="brand-logo">React + TypeScript</a>
+      <NavLink to="/" className="brand-logo">React + TypeScript</NavLink>
       <ul className="right hide-on-med-and-down">
         <li>
           <a href="/">
@@ -11,9 +12,9 @@ export const NavBar: React.FC = () => (
           </a>
         </li>
         <li>
-          <a href="/">
+          <NavLink to="/about">
             About us
-          </a>
+          </NavLink>
         </li>
       </ul>
     </div>
