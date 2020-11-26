@@ -10,7 +10,7 @@ const App: React.FC = () => {
       <NavBar />
       <div className="container">
         <Switch>
-          <Route component={TodosPage} path="/" exact />
+          <Route component={TodosPage} path="/react-typescript" exact />
           <Route component={AboutPage} path="/about" />
         </Switch>
       </div>
