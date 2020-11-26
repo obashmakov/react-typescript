@@ -4,12 +4,12 @@ import { NavLink } from 'react-router-dom';
 export const NavBar: React.FC = () => (
   <nav>
     <div className="nav-wrapper purple darken-2 px1">
-      <NavLink to="/react-typescript" className="brand-logo">React + TypeScript</NavLink>
+      <NavLink to="/" className="brand-logo">React + TypeScript</NavLink>
       <ul className="right hide-on-med-and-down">
         <li>
-          <a href="/react-typescript">
+          <NavLink to="/">
             List of todos
-          </a>
+          </NavLink>
         </li>
         <li>
           <NavLink to="/about">
